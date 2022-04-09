@@ -1,0 +1,167 @@
+/* *{
+    border: 1px solid red
+} */
+ 
+body{
+    
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, #ffffff 43%, #ebebeb 81%, #d4d1d1 91%, #000000 99%);
+
+    font-size: 22px;
+    margin: 0px;
+}
+
+ul{
+    text-align: center;
+    padding-left: 0;
+    
+}
+
+li{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Palette Mosaic', cursive;
+    font-size: 45px;
+    display: inline-block;
+    font-style: italic;
+    
+}
+
+ul li a{
+    color:rgb(209, 209, 209);
+    text-decoration: none;
+    border: 2px solid rgb(161, 0, 0);
+    padding: 10px;
+
+    background-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    display: inline-block;
+    
+}
+
+
+p{
+    max-width: 50%;
+    padding: 15px;
+    margin: 150px auto;
+    z-index: 5;
+}
+
+h1{
+    text-align: center;
+    margin-top: 250px;
+    
+}
+
+.odstavec{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+
+#cover{
+    position: relative;
+    background: url(/Img/obr1.jpg) center -340px no-repeat;
+    height: auto;
+    min-height: 1000px;
+}
+.container{
+    position: absolute;
+    top: 450px;
+    left: 5%;
+    right: 5%;
+    z-index: 10;
+   
+    
+
+
+    
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+   
+}
+
+.fadecovers{
+   position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    min-height: 1000px;
+    overflow: hidden;
+ 
+}
+
+.clanky{
+    
+    position: relative;
+    top: -200px;
+    padding-bottom: 50px;
+}
+
+.back-to-top {
+    color: rgb(139, 0, 0);
+    font-size: 15px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    z-index: 10;
+    display: block;
+    opacity: 0.7;
+}
+
+.back-to-top:hover,
+.back-to-top:focus{
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.footer1{
+    height: 150px;
+    
+}
+.sub-footer{
+    height: 50px;
+    
+
+}
+
+/* manual slider */
+
+
+
+.prev {
+	background-image: url('/img/left.png');
+	left: 0px;
+}
+
+.next {
+	background-image: url('/Img/right.png');
+	right: 0px;
+}
+
+.arrow {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: rgb(0, 0, 0);
+	border-radius: 50%;
+	padding: 10px;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 500px;
+	z-index: 2;
+	text-indent: -9999em;
+	opacity: .6;
+    border: 2px solid rgb(161, 0, 0);
+}
+
+.arrow:hover {
+	opacity: 1;
+}
