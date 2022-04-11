@@ -1,5 +1,5 @@
 (function ($) {
-    /*    NA KLIKNUTÍ SE OBJEVÍ PŘÍSLUŠNÁ SEKCE */
+    /*  NA KLIKNUTÍ SE OBJEVÍ PŘÍSLUŠNÁ SEKCE */
 
     var odstavec = $('.odstavec'),
         menuLinks = $('.mainMenu a');
@@ -33,7 +33,7 @@
             .fadeIn(1500);
     }, 3500);
 
-    /* SCROLL DONWN NA KLIKNUTÍ */
+    /*  SCROLL DONWN NA KLIKNUTÍ */
 
     var menu = $('.mainMenu'),
         menuLinks = menu.find('a');
@@ -68,7 +68,7 @@
         else backToTop.hide();
     });
 
-    /*      IMG SLIDER  MANUAL*/
+    /*  IMG SLIDER  MANUAL*/
 
     var Slider = {
         images: null,
@@ -138,8 +138,9 @@
         }
     });
 
-    /*    ANIMACE */
-    /*
+    /*  ANIMACE */
+
+    
     var colors = ['#3b9ae1', '#f6be00', '#e64131', 'eb70b1', '0f1a5f'];
 
     $('mainMenu').find('a').on('mouseenter', function () {
@@ -149,5 +150,5 @@
     });
 
 
-     */
+
 })(jQuery);
