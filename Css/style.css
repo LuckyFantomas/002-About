@@ -61,9 +61,10 @@ h1{
 
 #cover{
     position: relative;
-    background: url(/Img/obr1.jpg) center -340px no-repeat;
+    background: url(/Img/obr1.jpg) no-repeat center center;
     height: auto;
     min-height: 1000px;
+    background-size: cover;
 }
 .container{
     position: absolute;
