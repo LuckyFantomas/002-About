@@ -7,6 +7,7 @@ body {
     background-image: linear-gradient(180deg, #ffffff 43%, #ebebeb 81%, #d4d1d1 91%, #000000 99%);
     font-size: 22px;
     margin: 0px;
+    width: 100%
 }
 
 ul {
@@ -256,6 +257,82 @@ h2 {
     margin-top: 0px;
     background-color: rgb(175, 175, 175);
 }
+
+/* FORMULAR */
+
+.section-1 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    background-color: rgb(175, 175, 175);
+    margin: 20px;
+    margin-top: 300px;
+    padding: 0px;
+    text-align: left;
+    max-width: 100%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    border: 5px solid black;
+
+}
+
+textarea {
+    border: 2px solid rgb(161, 0, 0);
+    width: 675px;
+    height: 300px;
+    margin: 20px 5px;
+    border-radius: 14px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
+
+}
+
+input {
+    background: #fff;
+    position: relative;
+    border: none;
+    width: 250px;
+    padding: 15px 20px;
+    margin: 5px;
+    margin-left: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
+}
+
+button {
+    color: #ffffff;
+    background: #bb0000;
+    padding: 15px 20px;
+    margin: 20px;
+    border-radius: 14px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
+    font-size: 20px;
+    margin-right: 250px;
+    cursor: pointer;
+}
+
+select {
+    width: 680px;
+    margin-left: 5px;
+}
+
+input[type='checkbox'] {
+    padding: 10px;
+    margin: 50px 5px, 0px, 5px;
+    width: auto;
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+.checkboxy {
+    margin-top: 20px;
+    text-align: left;
+}
+
+
 
 
 /* ADAPTIVE */
