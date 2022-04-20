@@ -140,14 +140,33 @@
 
     /*  ANIMACE */
 
-    
+
     var colors = ['#3b9ae1', '#f6be00', '#e64131', 'eb70b1', '0f1a5f'];
 
     $('mainMenu').find('a').on('mouseenter', function () {
-         var newColor = colors[Math.floor(Math.random() * colors.length)];
-        $(this).animate({ backgroundColor: red  })
+        var newColor = colors[Math.floor(Math.random() * colors.length)];
+        $(this).animate({ backgroundColor: red })
 
     });
+
+    /*  GALERRY */
+
+ /*    var gallery = $('.shows'),
+        startingOpacity = gallery.find('img').css({ 'opacity' })
+;
+
+    gallery.find('img').on('mouseenter mouseleave', function (event) {
+        var opacity = event.type === 'mouseenter' ? 1 : startingOpacity;
+        $(this).stop().fadeTo(200, opacity);
+
+    }); */
+
+
+
+
+
+
+
 
 
 

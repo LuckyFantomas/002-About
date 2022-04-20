@@ -249,14 +249,23 @@ h2 {
     margin-bottom: 10px;
     border-radius: 10px;
     padding: 20px;
-    width: 70%;
-    height: 500px;
+    max-width: 70%;
+    height: 80%;
     margin-left: 15%;
     margin-right: 15%;
     justify-content: center;
     margin-top: 0px;
     background-color: rgb(175, 175, 175);
 }
+
+/* GALERIE */
+.shows img{
+    width: 20%;
+    height: auto;
+    justify-content: center;
+}
+
+
 
 /* FORMULAR */
 
