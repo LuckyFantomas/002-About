@@ -1,4 +1,7 @@
 (function ($) {
+
+
+
     /*  NA KLIKNUTÍ SE OBJEVÍ PŘÍSLUŠNÁ SEKCE */
 
     var odstavec = $('.odstavec'),
@@ -161,12 +164,11 @@
 
     }); */
 
-
-
-
-
-
-
+    swal({
+        title: 'UPOZORNĚNÍ!',
+        text: 'Stránka je ve vývoji, makáme na ní!',
+        icon: 'info',
+    });
 
 
 

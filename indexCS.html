@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -32,7 +32,9 @@
     </head>
 
     <body>
+
         <main>
+
             <section id="cover">
                 <div class="container">
                     <ul class="mainMenu">
@@ -42,7 +44,7 @@
                         <li><a href="#contacts">KONTAKT</a></li>
                     </ul>
                 </div>
-
+            </div>
                 <a href="#prev" class="arrow prev">prev</a>
                 <a href="#next" class="arrow next">next</a>
 
@@ -57,6 +59,14 @@
                     <div class="cover" style="background: url('img/obr8.jpg')"></div>
                 </div>
             </section>
+
+            <div class="lang-menu">
+                <div class="selected-lang">
+                    <img class="Eng" src="/Img/united-kingdom-flag-png-large.png" height="32px" width="50px" alt=""> <a href="/index.html"></a>
+                    <img class="Cs" src="/Img/czech-republic-flag-png-large.png" height="32px" width="50px" alt=""> <a href="#"></a>
+
+                </div>
+            </div>
 
             <div class="clanky">
                 <div class="odstavec" id="aboutme">
@@ -77,13 +87,39 @@
                     <h1>Moje projekty</h1>
                         <h2>Zde je pár projektů které jsem vytvořil</h2>
                         <div class="shows">
-                            <ul>
-                                <li><a href=""></a></li>
-                                <li><a href=""></a></li>
-                                <li><a href=""></a></li>
-                                <li><a href=""></a></li>
-                                <li><a href=""></a></li>
-                            </ul>
+                            <a href="/img-gallery/pic1.jpg">
+                                <img src="/img-gallery/pic1.jpg"></a>
+                            <a href="/img-gallery/pic2.jpg">
+                                <img src="/img-gallery/pic2.jpg"></a>
+                            <a href="/img-gallery/pic3.jpg">
+                                <img src="/img-gallery/pic3.jpg"></a>
+                            <a href="/img-gallery/pic4.jpg">
+                                <img src="/img-gallery/pic4.jpg"></a>
+                            <a href="/img-gallery/pic5.jpg">
+                                <img src="/img-gallery/pic5.jpg"></a>
+                            <a href="/img-gallery/pic6.jpg">
+                                <img src="/img-gallery/pic6.jpg"></a>
+                            <a href="/img-gallery/pic7.jpg">
+                                <img src="/img-gallery/pic7.jpg"></a>
+                            <a href="/img-gallery/pic8.jpg">
+                                <img src="/img-gallery/pic8.jpg"></a>
+                            <a href="/img-gallery/pic9.jpg">
+                                <img src="/img-gallery/pic9.jpg"></a>
+                            <a href="/img-gallery/pic10.jpg">
+                                <img src="/img-gallery/pic10.jpg"></a>
+                            <a href="/img-gallery/pic11.jpg">
+                                <img src="/img-gallery/pic11.jpg"></a>
+                            <a href="/img-gallery/pic12.jpg">
+                                <img src="/img-gallery/pic12.jpg"></a>
+                            <a href="/img-gallery/pic13.jpg">
+                                <img src="/img-gallery/pic13.jpg"></a>
+                            <a href="/img-gallery/pic14.jpg">
+                                <img src="/img-gallery/pic14.jpg"></a>
+                            <a href="/img-gallery/pic15.jpg">
+                                <img src="/img-gallery/pic15.jpg"></a>
+                            <a href="/img-gallery/pic16.jpg">
+                                <img src="/img-gallery/pic16.jpg"></a>
+
                         </div>
                 </div>
 
@@ -122,13 +158,21 @@
                     <section class="section-1">
                         <h1>Máte nějaké dotazy ? Napište mi.</h1>
 
+                        <div class="footer1">
+
+                            <a href="#" target="_blank" class="fa fa-linkedin"></a>
+                            <a href="#" target="_blank" class="fa fa-github"></a>
+                            <a href="#" target="_blank" class="fa fa-youtube"></a>
+
+                        </div>
+
                         <form action="#" method="GET" class="container2">
                             <input type="text" name="name" placeholder="Jméno" required />
                             <input type="text" name="name" placeholder="Příjmení" required />
                             <input type="email" name="email" placeholder="@" required />
 
                             <textarea name="message" rows="30"></textarea>
-                            
+
 
                             <div class="checkboxy">
                                 <label>
@@ -169,5 +213,6 @@
         <script src="/JavaScript/jquery.min.js"></script>
         <script src="/JavaScript/color.animation.js"></script>
         <script src="/JavaScript/style.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     </body>
 </html>
