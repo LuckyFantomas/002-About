@@ -377,9 +377,6 @@ label {
 
 }
 
-label:#text {
-    text-align: left;
-}
 .checkboxy {
     margin-top: 10px;
     text-align: left;
@@ -449,4 +446,34 @@ label:#text {
         max-width: 100%;
         margin: 10 20;
     }
+}
+
+@media screen and ( max-width: 800px) {
+    .footer1 {
+
+        margin-top: 250px;
+    }
+
+
+}
+
+
+
+@media screen and ( max-width: 400px) {
+    .skill1, .skill2 {
+        position: absolute;
+        margin: 50px 20%
+    }
+
+}
+
+
+@media screen and ( max-width: 400px) {
+    .section-1 {
+
+        width: 100%;
+        margin: 20 0;
+    }
+
+
 }

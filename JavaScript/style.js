@@ -1,3 +1,10 @@
+swal({
+    title: 'UPOZORNĚNÍ',
+    text: 'Stránka je ve vývoji, makám na ní, dejte mi čas. Díky',
+    icon: 'info',
+});
+
+
 (function ($) {
 
 
@@ -163,12 +170,6 @@
         $(this).stop().fadeTo(200, opacity);
 
     }); */
-
-    swal({
-        title: 'UPOZORNĚNÍ!',
-        text: 'Stránka je ve vývoji, makáme na ní!',
-        icon: 'info',
-    });
 
 
 
