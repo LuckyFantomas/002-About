@@ -16,15 +16,18 @@ ul {
 }
 
 li {
-    font-family: 'Dancing Script', cursive;
+
     font-family: 'Palette Mosaic', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Splash', cursive;
     font-size: 45px;
     display: inline-block;
     font-style: italic;
 }
 
 .container ul li a {
-    color: rgb(209, 209, 209);
+    color: rgb(22, 22, 22);
     text-decoration: none;
     border: 2px solid rgb(161, 0, 0);
     padding: 10px;
